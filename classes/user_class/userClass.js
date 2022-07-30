@@ -1,11 +1,12 @@
 
 // OOP Classes
 class User {
-  constructor(username, email, age, gender) {
+  constructor(username, age,gender,password) {
     this.username = username;
-    this.email = email,
     this.age = age,
+    this.password = password,
     this.gender = gender
+    
   }
   login() {
     // setLogin
@@ -35,7 +36,7 @@ class Customer extends User {
 
 }
 
-export {Admin,Customer};
+export {Admin,Customer,User};
 
 
 
